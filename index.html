@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>bastienlemaitre.github.Io</title><base href="https://bastienlemaitre.github.io"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><script>// See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();</script><link href="styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.74499c04f4451836f891.bundle.js"></script><script type="text/javascript" src="polyfills.e1f97a0070e18e96a6be.bundle.js"></script><script type="text/javascript" src="vendor.5739d563dc0ddb7536ab.bundle.js"></script><script type="text/javascript" src="main.fdcb7117f830f49633bc.bundle.js"></script></body></html>
