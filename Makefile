@@ -4,5 +4,5 @@ deploy:
 
 save:
 	git add .
-	git commit -m "$(MAKECMDGOALS)"
+	git commit -m "$(filter-out $@,$(MAKECMDGOALS))"
 	git push origin source
